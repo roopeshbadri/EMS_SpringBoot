@@ -137,13 +137,7 @@ function App() {
         
       </tbody>
     </table>
-    {/* <div className='pagediv'>
-      <button disabled={!canPreviousPage}  className='pageBtn' onClick={()=>gotoPage(0)}>First</button>
-      <button disabled={!canPreviousPage}  className='pageBtn'  onClick={previousPage}>Prev</button>
-      <span className='idx'>{pageIndex+1} of {pageCount} </span>
-      <button disabled={!canNextPage}  className='pageBtn' onClick={nextPage}>Next</button>
-      <button disabled={!canNextPage} className='pageBtn' onClick={()=>gotoPage(pageCount-1)}>Last</button>
-    </div> */}
+
     
     </div>
     </>
