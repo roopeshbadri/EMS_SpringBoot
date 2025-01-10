@@ -1,0 +1,200 @@
+.main-container{
+  width: 585px;
+  height: fit-content;
+  margin-left:75px;
+  margin-bottom:520px;
+  
+}
+h3{
+  color: blueviolet;
+  text-align: center;
+}
+
+.add-panel{
+  width: 585px;
+  height: 60px;
+  border: 1px solid;
+  background-color: aquamarine;
+}
+
+.searchInput{
+  margin-top:35px;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 25px;
+  width:210px;
+  background-color: aliceblue;
+  
+}
+.addPanelDiv{
+  margin-left:5px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.addPanelInput{
+  border: 1px solid;
+  border-radius: 5px;
+  height: 25px;
+  width: 140px;
+  background-color: antiquewhite;
+}
+.addBtn{
+  width: 60px;
+  height: 28px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-left: 5px;
+}
+.addBtn:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.addBtn:active {
+  background-color: #388e3c; /* Even darker green when clicked */
+  transform: scale(1); /* Maintain size when clicked */
+}
+.cancelBtn{
+  width: 60px;
+  height: 28px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* Text color */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-left: 5px;
+}
+.cancelBtn:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.cancelBtn:active {
+  background-color: #388e3c; /* Even darker green when clicked */
+  transform: scale(1); /* Maintain size when clicked */
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Add a border to the table and cells */
+.table, .table th, .table td {
+  border: 1px solid #ccc;
+}
+
+/* Header styles */
+.table th {
+  background-color: #f4f4f4;
+  text-align: left;
+  padding: 8px;
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Cell styles */
+.table td {
+  padding: 8px;
+  font-size: 13px;
+  color: #555;
+  text-align: left;
+}
+
+/* Zebra striping for rows */
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Hover effect */
+.table tr:hover {
+  background-color: #e6f7ff;
+  cursor: pointer;
+}
+
+/* Add some spacing between table rows */
+.table tr {
+  height: 40px;
+}
+
+/* Add a border radius to the table */
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Add responsive scrolling */
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Adjust for smaller screens */
+@media screen and (max-width: 768px) {
+  .table {
+    font-size: 12px;
+  }
+  .table th, .table td {
+    padding: 6px;
+  }
+}
+ .editBtn{
+  border: 1px solid;
+  font-size: 10px;
+  line-height: 12px;
+  border-radius: 5px;
+  width:60px;
+  height: 28px;
+  background-color: #2196F3;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+ }
+ .editBtn:hover {
+  background-color: #2196F3; /* Darker green on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.editBtn:active {
+  background-color: #2196F3; /* Even darker green when clicked */
+  transform: scale(1); /* Maintain size when clicked */
+}
+ .deleteBtn{
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 10px;
+  line-height: 12px;
+  width:60px;
+  height: 28px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  background-color:#f44336;
+  border: none;
+ }
+ .deleteBtn:hover {
+  background-color: #f44336; /* Darker green on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.deleteBtn:active {
+  background-color: #f44336; /* Even darker green when clicked */
+  transform: scale(1); /* Maintain size when clicked */
+}
+ .error{
+  color: red;
+ }
